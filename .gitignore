@@ -2,3 +2,13 @@
 __pycache__/
 *.py[cod]
 .pytest_cache/
+
+# Downloaded and generated experiment data.
+checkpoints/*.pt
+checkpoints/*.pth
+checkpoints/*.ckpt
+data/gpd/
+data/*_manifest.csv
+data/samples/*
+results/*
+!results/.gitkeep
